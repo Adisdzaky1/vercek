@@ -1,0 +1,30 @@
+{
+  "name": "docker-vps-manager",
+  "version": "1.0.0",
+  "description": "VPS Manager using Dockerode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dockerode": "^3.3.0",
+    "ejs": "^3.1.10",
+    "express": "^4.18.2",
+    "express-session": "^1.18.1",
+    "fs-extra": "^11.2.0",
+    "net": "^1.0.2",
+    "node-fetch": "^2.6.9",
+    "node-ssh": "^13.2.0",
+    "pg": "^8.13.1",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0",
+    "socket.io": "^4.8.1",
+    "ssh2": "^1.16.0",
+    "utf8": "^3.0.0",
+    "ws": "^8.18.0",
+    "xterm": "^5.3.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

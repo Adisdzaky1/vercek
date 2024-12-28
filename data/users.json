@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "vps": {
+      "name": "asoqpq",
+      "containerId": "ee7a383e77de1cb710aaa3bdafc375db06b4ed18ca58abebca8e7dee0ac7f74f",
+      "status": "OFF",
+      "ip": "185.197.194.103",
+      "username": "root",
+      "password": "azjw",
+      "port": 23654
+    }
+  },
+  {
+    "id": 2,
+    "username": "user1",
+    "password": "password123",
+    "role": "user",
+    "vps": null
+  },
+  {
+    "id": 3,
+    "username": "asep",
+    "password": "asepcore",
+    "role": "user",
+    "vps": null
+  },
+  {
+    "id": 4,
+    "username": "asepcool",
+    "password": "asepnih",
+    "role": "user",
+    "vps": null
+  },
+  {
+    "id": 5,
+    "username": "asepnih",
+    "password": "asepnih",
+    "role": "user",
+    "vps": {
+      "name": "asepnih",
+      "containerId": "07bc44b849cb47c0702cfe3af81a486beb2ef8f506dada12b6ef6552f3459618",
+      "status": "ON",
+      "ip": "185.197.194.103",
+      "username": "root",
+      "password": "asepnih",
+      "port": 27016
+    }
+  }
+]
