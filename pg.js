@@ -5,7 +5,7 @@ const url = require('url');
 const connectionString = 'postgresql://postgres.uuqfnngkeheonzancwlt:Asep@@12344@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres';
 
 // Buat Pool untuk koneksi database
-const client = new pg({
+const client = new pg.Client({
     connectionString,
     ssl: {
         rejectUnauthorized: false // Atur SSL jika diperlukan
